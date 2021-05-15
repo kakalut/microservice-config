@@ -5,8 +5,10 @@
 ---
 spring:
   profiles: dev
-port: 8001
+server:
+  port: 8001
 ---
 spring:
   profiles: test
-port: 8002
+server:
+  port: 8002
